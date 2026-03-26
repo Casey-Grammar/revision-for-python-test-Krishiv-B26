@@ -7,7 +7,7 @@ def main():
 
     # End of your code for input here
     Task1 = input('Hello')
-T
+
 
 
 if __name__ == '__main__':
