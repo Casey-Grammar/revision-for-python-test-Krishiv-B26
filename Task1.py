@@ -4,7 +4,6 @@ def main():
     # Write your code for input here
     var = input('What is your name: ')
     print(f'Hi, {var}')
-
     # End of your code for input here
     Task1 = input('Hello')
 
