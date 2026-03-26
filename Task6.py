@@ -5,7 +5,11 @@
 
 def main():
     #Write your code here
-    
+    input_message = input("Please do not feed the bear: ")
+    if "bear" in input_message:
+        print("There is a bear in there.")
+    else:
+        print("No bears in there.")
         
     
     # End of your code here
