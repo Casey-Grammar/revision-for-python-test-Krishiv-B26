@@ -5,8 +5,8 @@ import task1
 class TestTask1(unittest.TestCase):
 
     @patch('builtins.print')
-    @patch('builtins.input', side_effect=['Alice', 'Bob', ''])
-    def test_main_multiple_inputs(self, mock_input, mock_print):
+    @patch('builtins.input', side_effect= (['Alice', 'Bob', ''])
+         def test_main_multiple_inputs(self, mock_input, mock_print):
         # First input
         task1.main()
         mock_print.assert_called_with('Hi, Alice')
@@ -20,4 +20,4 @@ class TestTask1(unittest.TestCase):
         mock_print.assert_called_with('Hi, ')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(() 
